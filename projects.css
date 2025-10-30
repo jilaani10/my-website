@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    height: 850px;
+    scroll-behavior: smooth;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-div{
+    color: cyan;
+}
+.line-1{
+    margin-top: 0;
+    color: wheat;
+}
+.portfolio-text-1{
+    color: white;
+    margin-bottom: 0;
+}
+.portfolio-text{
+    color: white;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing-page-div{
+    color: cyan;
+    margin-bottom: 0;
+}
+.line-2{
+    margin-top: 0;
+    color: wheat;
+}
+.landing-page-text-1{
+    color: lightblue;
+    margin-bottom: 0;
+}
+.landing-page-text{
+    color: lightblue;
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css-animation-div{
+    color: cyan;
+    margin-bottom: 0;
+}
+.line-3{
+    margin-top: 0;
+    color: wheat;
+}
+.css-animation-text-1{
+    color: rgb(11, 132, 245);
+    margin-bottom: 0;
+}
+.css-animation-text{
+    color: rgb(11, 132, 245)
+}
+.continue-btn{
+    background-color: black;
+    color: rgb(94, 216, 253);
+    font-weight: 500;
+    padding: 6px 9px;
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: aqua;
+    border-style: solid;
+    box-shadow: 0 0 5px lightblue;
+    transition: box-shadow 0.25s,
+    border-color 0.25s,
+    background-color 0.200s,
+    color 0.200s;
+    cursor: pointer;
+}
+.continue-btn:hover{
+    border-color: cyan;
+    box-shadow: 0 0 10px cyan;
+}
+.continue-btn:active{
+    background-color: cyan;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 50px;
+}
+.click-btn{
+    text-decoration: none;
+    color: rgb(94, 216, 253);
+}

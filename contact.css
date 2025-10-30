@@ -1,0 +1,64 @@
+body{
+    font-family: Roboto,Arial;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: scroll;   
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(4, 245, 205);
+    font-size: 30px;
+}
+.heading{
+    color: cyan;
+}
+.underline{
+    color: white;
+}
+.statement-div{
+    color: rgb(223, 219, 219);
+}
+.email-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellowgreen;
+    margin-bottom: 5px;
+}
+.statement-div-1{
+    color: aquamarine;
+    margin-bottom: 15px;
+}
+.continue-btn{
+    background-color: black;
+    color: rgb(94, 216, 253);
+    font-weight: 500;
+    padding: 6px 9px;
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: aqua;
+    border-style: solid;
+    box-shadow: 0 0 5px lightblue;
+    transition: box-shadow 0.25s,
+    border-color 0.25s,
+    background-color 0.200s,
+    color 0.200s;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: rgb(94, 216, 253);
+}
+.continue-btn:hover{
+    border-color: cyan;
+    box-shadow: 0 0 10px cyan;
+}
+.continue-btn:active{
+    background-color: cyan;
+    color: black;
+}

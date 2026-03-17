@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+            height: 1000px;
+            background: linear-gradient(450deg, rgb(19, 3, 39));
+        }
+        section{
+            width: 225px;
+            padding-top: 35px;
+            padding-bottom: 40px;
+            margin: 200px auto;
+              background: linear-gradient(450deg, rgb(19, 3, 39));
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+        .subjects-div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .english-div{
+            color: white;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .english-div:focus{
+            padding: 7px 85px;
+            border-bottom: 1px solid pink;
+            border-radius: 20px;
+            color: pink;
+            transition: padding .40s ease-in-out, border .40s ease-in-out, color 0.3s ease;
+        }
+        .math-div{
+            color: white;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .math-div:focus{
+            padding: 7px 65px;
+            border-bottom: 1px solid pink;
+            border-radius: 20px;
+            color: pink;
+            transition: padding .40s ease-in-out, border .40s ease-in-out;
+        }
+        .social-div{
+            color: white;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .social-div:focus{
+            padding: 7px 60px;
+            border-bottom: 1px solid pink;
+            border-radius: 20px;
+            color: pink;
+            transition: padding .40s ease-in-out, border .40s ease-in-out;
+        }
+        .science-div{
+            color: white;
+            cursor: pointer;
+        }
+        .science-div:focus{
+            padding: 7px 85px;
+            border-top: 1px solid pink;
+            border-radius: 20px;
+            color: pink;
+            transition: padding .40s ease-in-out, border .40s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="subjects-div">
+            <div class="english-div" tabindex="0">English</div>
+        <div class="math-div" tabindex="0">Mathematics</div>
+        <div class="social-div" tabindex="0">Social Studies</div>
+        <div class="science-div" tabindex="0">Science</div>
+        </div>
+    </section>
+    
+</body>
+</html>
